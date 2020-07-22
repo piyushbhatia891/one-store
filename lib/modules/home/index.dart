@@ -15,6 +15,7 @@ class _homePageState extends State<HomePage>{
         backgroundColor: Colors.blue.shade300,
         title: Text('Shopping'),
         centerTitle: true,
+        automaticallyImplyLeading: false
       ),
       body: GridView.count(
         padding: const EdgeInsets.all(26),

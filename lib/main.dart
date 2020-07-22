@@ -43,7 +43,7 @@ class _MyHomePageState extends State<MyHomePage> with TickerProviderStateMixin {
     Timer(
         Duration(seconds: 3),
             ()=>{
-        Navigator.push(context, MaterialPageRoute(builder: (context)=>CategoriesPage()))
+        Navigator.push(context, MaterialPageRoute(builder: (context)=>HomePage()))
   });
   }
   void _incrementCounter() {
